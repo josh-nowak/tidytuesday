@@ -1,0 +1,24 @@
+---
+title: 'tidytuesday: Traumatic Brain Injury'
+author: "Joshua Nowak"
+date: "4/11/2020"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# The dataset
+Information about this dataset can be found at the [tidytuesday github repo](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-03-24/readme.md).
+
+```{r}
+tbi_age <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-24/tbi_age.csv')
+tbi_year <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-24/tbi_year.csv')
+tbi_military <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-24/tbi_military.csv')
+
+```
+
+
+
+
