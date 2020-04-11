@@ -109,7 +109,7 @@ tbi_age %>%
     facet_wrap(vars(fct_reorder(injury_mechanism, rate_est, sum, .desc = TRUE)))
 ```
 
-![](report_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](readme_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 Let’s focus on unintentional falls, since there seem to be some
 interesting patterns.
@@ -146,4 +146,4 @@ plot <- tbi_age %>%
 plot
 ```
 
-![](report_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](readme_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
